@@ -34,7 +34,7 @@ body{
 .js-weather{
     position: absolute;
     color : snow;
-    font-size: 100%;
+    font-size: 200%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     right : 10px;
     top : -10px;
@@ -51,7 +51,7 @@ body{
 .js-time{
     color: snow;
     font-family: sans-serif;
-    font-size: 500%;
+    font-size: 700%;
     font-weight:bold;
 }
 
@@ -64,7 +64,7 @@ body{
 .js-greeting{
     font-family: sans-serif;
     font-weight:bold;
-    font-size: 200%;
+    font-size: 400%;
     position: relative;
     top: -5px;
 }
@@ -82,7 +82,7 @@ input{
     font-family: sans-serif;
     font-weight:bold;
     outline: none;
-    font-size: 100%;
+    font-size: 300%;
     
 }
 
@@ -95,7 +95,7 @@ input::placeholder{
 
 .js-toDoList{
     color: white;
-    font-size: 180%;
+    font-size: 380%;
     font-weight:bold;
 }
 
@@ -109,5 +109,5 @@ button{
     border-color: transparent;
     position: relative;
     top: -4px;
-    font-size: 80%;
+    font-size: 280%;
 }
