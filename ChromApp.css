@@ -24,7 +24,7 @@ body{
 
 .js-date{
     color  : snow;
-    font-size: 100%;
+    font-size: 200%;
     font-family: fantasy ;
     position: absolute;
     bottom :-8px;
@@ -51,7 +51,7 @@ body{
 .js-time{
     color: snow;
     font-family: sans-serif;
-    font-size: 700%;
+    font-size: 600%;
     font-weight:bold;
 }
 
@@ -64,7 +64,7 @@ body{
 .js-greeting{
     font-family: sans-serif;
     font-weight:bold;
-    font-size: 401%;
+    font-size: 300%;
     position: relative;
     top: -5px;
 }
@@ -82,7 +82,7 @@ input{
     font-family: sans-serif;
     font-weight:bold;
     outline: none;
-    font-size: 300%;
+    font-size: 200%;
     
 }
 
