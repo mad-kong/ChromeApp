@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🔥매드공의 첫 프로젝트</title>
+        <meta charset="utf-8"/>
+        <link rel = "stylesheet" href = "ChromApp.css"/>
+    </head>
+    <body>
+        <!--태그요소: p(일반텍스트),h1~6:내용을 구조화(크기가 작아짐-->
+        <p class = "js-date">
+        </p>
+        <div class= "MainForm">
+            <div class = "js-time">
+            </div>
+            <!--form태그는 사용자로부터 입력받을때 ex)회원가입/로그인-->
+            <form class = "js-submitting">
+                <input type ="text" placeholder= "Write your name" >
+            </form>
+            <div class = "js-greeting"></div>
+            <form class = "js-toDoForm">
+                <input type= "text" placeholder="Write a to do here" style="color: white;"/>
+            </form>
+            <!-- ul태그는 순서가 없는 목록태그 -->
+            <span class = "js-toDoList"></span>
+        </div>
+        <p class = js-weather></p>
+        <script src="clock.js"></script>
+        <script src="name.js"></script>
+        <script src="background.js"></script>
+        <script src="toDo.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color: darkgray;
+}
+
+.bgImg{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    animation: fadeIn 2s ;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+    
+}
+
+.js-date{
+    color  : snow;
+    font-size: 100%;
+    font-family: fantasy ;
+    position: absolute;
+    bottom :-8px;
+    right : 10px;
+}
+
+.js-weather{
+    position: absolute;
+    color : snow;
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right : 10px;
+    top : -10px;
+}
+
+
+.MainForm{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.js-time{
+    color: snow;
+    font-family: sans-serif;
+    font-size: 500%;
+    font-weight:bold;
+}
+
+.js-submitting{
+    background-color: transparent;
+    border-color: transparent;
+    display : none;
+}
+
+.js-greeting{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 200%;
+    position: relative;
+    top: -5px;
+}
+
+.js-toDoForm{
+    position: relative;
+}
+
+/*input은 input박스에 대한 설정*/
+input{
+    color: white;
+    border-color: transparent;
+    border-bottom-color: white;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-weight:bold;
+    outline: none;
+    font-size: 100%;
+    
+}
+
+/*input::placeholder은 input박스 안의 안내문구에 대한 설정*/
+input::placeholder{
+    font-family: sans-serif;
+    font-weight:bold;
+    color: white;
+}
+
+.js-toDoList{
+    color: white;
+    font-size: 180%;
+    font-weight:bold;
+}
+
+.showing{
+    display: inline;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    top: -4px;
+    font-size: 80%;
+}
