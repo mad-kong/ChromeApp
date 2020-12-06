@@ -95,7 +95,7 @@ input::placeholder{
 
 .js-toDoList{
     color: white;
-    font-size: 180%;
+    font-size: 380%;
     font-weight:bold;
 }
 
@@ -109,5 +109,5 @@ button{
     border-color: transparent;
     position: relative;
     top: -4px;
-    font-size: 80%;
+    font-size: 100%;
 }
