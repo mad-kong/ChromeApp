@@ -23,7 +23,7 @@ body{
 }
 
 .js-date{
-    color  : black;
+    color  : snow;
     font-size: 200%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
@@ -34,7 +34,7 @@ body{
 
 .js-weather{
     position: absolute;
-    color : black;
+    color : rgb(19, 9, 123);
     font-size: 175%;
     font-weight: bolder;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -77,9 +77,9 @@ body{
 
 /*input은 input박스에 대한 설정*/
 input{
-    color: white;
+    color: snow;
     border-color: transparent;
-    border-bottom-color: white;
+    border-bottom-color: snow;
     background-color: transparent;
     font-family: sans-serif;
     font-weight:bold;
@@ -92,18 +92,18 @@ input{
 input::placeholder{
     font-family: sans-serif;
     font-weight:bold;
-    color: white;
+    color: snow;
 }
 
 .js-toDoList{
-    color: white;
+    color: snow;
     font-size: 380%;
     font-weight:bold;
 }
 
 .showing{
     display: inline;
-    color: white;
+    color: snow;
 }
 
 button{
