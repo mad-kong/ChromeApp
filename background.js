@@ -1,5 +1,5 @@
 const body = document.querySelector("body")
-const IMG_NUM = 4;
+const IMG_NUM = 8;
 
 function init(){
     const randomNumber = getRandom();

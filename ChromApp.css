@@ -23,21 +23,21 @@ body{
 }
 
 .js-date{
-    color  : snow;
+    color  : black;
     font-size: 200%;
     font-family: fantasy ;
     position: absolute;
-    bottom :-8px;
+    bottom :-25px;
     right : 10px;
 }
 
 .js-weather{
     position: absolute;
-    color : snow;
-    font-size: 200%;
+    color : black;
+    font-size: 170%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     right : 10px;
-    top : -10px;
+    top : -25px;
 }
 
 
@@ -110,4 +110,16 @@ button{
     position: relative;
     top: -4px;
     font-size: 100%;
+}
+
+#delBtn{
+    color: red;
+    font-weight: 900;
+    font-size: 160%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: black;
+    background-color: rgba(192, 192, 192, 0.5)
 }
