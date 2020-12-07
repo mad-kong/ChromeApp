@@ -1,3 +1,4 @@
+/*
 const deleteBtn = document.querySelector(".js-deleteBtn");
 
 function init(){
@@ -9,4 +10,4 @@ function handleEvent(event){
     localStorage.removeItem("currentName");
     localStorage.removeItem("coords");
 }
-init();
+init();*/

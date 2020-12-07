@@ -1,9 +1,11 @@
 const weather = document.querySelector(".js-weather"),
     COORDS = "coords",
     API_KEY = "f93bd0b49bdf38f401a3720578b3ce5f";
-
+const deleteBtn = document.querySelector(".js-deleteBtn");
 function init(){
     loadCoords();
+    
+    deleteBtn.addEventListener("click",handleEvent);
 }
 
 function loadCoords(){
@@ -52,4 +54,11 @@ function getweather(latitude,longitude){
 function getError(){
     console.log("Click 'F5' then please permit to access to you!");
 }
+
+function handleEvent(){
+    localStorage.removeItem("toDos");
+    localStorage.removeItem("currentName");
+    localStorage.removeItem("coords");
+}
+
 init();
